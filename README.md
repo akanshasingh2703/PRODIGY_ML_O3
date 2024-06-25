@@ -6,7 +6,21 @@ This project demonstrates the use of Support Vector Machines (SVM) for classifyi
 
 ## Dataset
 
-The dataset consists of images of cats and dogs, stored in two separate zip files (`train.zip` and `test1.zip`). The images are extracted into directories (`/content/train/train` for training images and `/content/test1/test1` for test images) during execution.
+The dataset used in this project consists of images of cats and dogs, necessary for training and evaluating the SVM classifier. Due to its size, the dataset is not included in this repository.
+
+To obtain the dataset:
+
+1. Download the dataset from [Kaggle Dogs vs. Cats competition](https://www.kaggle.com/c/dogs-vs-cats/data).
+2. Extract the `train.zip` and `test1.zip` files locally.
+3. Upload the extracted dataset folders (`train` and `test1`) to your Google Colab environment or local directory as specified in the project code.
+
+The project assumes the following directory structure for the dataset:
+
+- `/content/train/train` : Contains training images of cats and dogs.
+- `/content/test1/test1` : Contains test images for evaluation.
+
+Ensure the dataset directories are correctly set up before running the provided code.
+
 
 ## Requirements
 
